@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Responsive Tea Design</title>
+  </head>
+  <body>
+    <div id="head-wrap">
+    <div id="jumbotron"></div>
+      <div class="bg-text">
+        <h2>Responsive Tea Design</h2>
+      </div>
+      <div class="dropdown">
+        <nav class="dropbtn"><i class="fas fa-leaf"></i></nav>
+        <div class="hidden">
+          <div class="link-wrap">
+            <a href="#">what is tea?</a>
+            <a href="#">categories</a>
+            <a href="#">flavours</a>
+            <a href="#">benefits</a>
+            <a href="#">Greet</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <article>
+      <h1 id="card-title">Tea</h1>
+      <h2 id="card-proun">[tee] noun.</h2>
+      <p id="card-phara">the finest aromatic solution to every problem the day may bring</p>
+    </article>
+  </body>
+  <script type="text/javascript">
+      $(".dropbtn").click(function(){
+        $(".hidden").toggleClass("dropdown-content");
+      });
+  </script>
+</html>
