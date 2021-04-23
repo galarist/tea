@@ -1,2 +1,3 @@
 # tea
-🍵 Tea Responsive Desgin Template
+## 🍵 Tea 
+Responsive Desgin
